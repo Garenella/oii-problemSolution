@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
 	freopen("output.txt", "w", stdout);	
 
 	int N, max = INT_MIN, tmp;
-	printf("%d\n", tmp);
+	
 	scanf("%d", &N);
 
 	for (int i = 0; i < N; ++i)
