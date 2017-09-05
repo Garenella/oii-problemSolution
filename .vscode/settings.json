@@ -4,6 +4,7 @@
         "cstdlib": "cpp",
         "ostream": "cpp",
         "iosfwd": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "limits.h": "c"
     }
 }
