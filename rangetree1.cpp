@@ -1,13 +1,14 @@
 #include <bits/stdc++.h>
 
-#define MAXN 200100
+#define MAXN 400000
 
 using namespace std;
 
 int N, Q;
-int tree[MAXN], lazy[MAXN];
+int tree[MAXN];
+bool lazy[MAXN];
 
-void update_tree_lazy(int tree[], int lazy[], int nodo, int inizio_seg, int fine_seg, int inizio_query, int fine_query)
+void update_tree_lazy(int tree[], bool lazy[], int nodo, int inizio_seg, int fine_seg, int inizio_query, int fine_query)
 {
 	if(lazy[nodo] != 0)
 	{
@@ -47,7 +48,7 @@ void update_tree_lazy(int tree[], int lazy[], int nodo, int inizio_seg, int fine
 	return;
 }
 
-int sum_tree_lazy(int tree[], int lazy[], int nodo, int inizio_seg, int fine_seg, int inizio_query, int fine_query)
+int sum_tree_lazy(int tree[], bool lazy[], int nodo, int inizio_seg, int fine_seg, int inizio_query, int fine_query)
 {
 	if(lazy[nodo] != 0)
 	{
@@ -93,8 +94,8 @@ int potenza_vicina(int N)
 
 int main()
 {
-//	freopen("input.txt", "r", stdin);
-//	freopen("output.txt", "w", stdout);
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
 	
 	cin >> N >> Q;
 	
