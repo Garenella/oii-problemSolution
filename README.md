@@ -1,10 +1,10 @@
 # oii-problemSolution
-Solutions to C/C++ problems about Italian Olympiad in Informatics
+Solutions to C/C++ problems about Italian Olympiad in Informatics (OII)
 
-## Solution List
+## {Problem, Solution} List
 
--[easy1](https://github.com/Gimmy89/oii-problemSolution/blob/master/easy1.c)
-
--easy2 
-
--easy3
+1. hello: [task](https://digit.olinfo.it/#/task/hello/statement) -> [solution]()
+2. somma: [task](https://digit.olinfo.it/#/task/somma/statement) -> [solution]()
+3. easy1: [task](https://digit.olinfo.it/#/task/easy1/statement) -> [solution]()
+4. fibonacci: [task](https://digit.olinfo.it/#/task/fibonacci/statement) -> [solution]()
+4. easy2: [task](https://digit.olinfo.it/#/task/easy2/statement) -> [solution]()
