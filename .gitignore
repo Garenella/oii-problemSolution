@@ -3,5 +3,5 @@ settings.json
 input_output
 input*.txt
 output*.txt
-test*.exe
+test*
 oracolo*.txt
