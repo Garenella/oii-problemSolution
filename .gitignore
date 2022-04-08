@@ -5,3 +5,5 @@ input*.txt
 output*.txt
 test*
 oracolo*.txt
+parigi.cpp
+covid-19.cpp
