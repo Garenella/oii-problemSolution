@@ -1,4 +1,4 @@
-# oii-problemSolution
+# OII-problemSolution
 Solutions to C/C++ problems about Italian Olympiad in Informatics (OII)
 
 ## {Task, Solution} List
